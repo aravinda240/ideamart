@@ -1,0 +1,6 @@
+
+Iphp:S1210"0Add curly braces around the nested statement(s).(ö«“Äùÿÿÿÿ
+]	php:S1192"HDefine a constant instead of duplicating this literal "content" 4 times.(Ç³Í›
+a	php:S1192%"LDefine a constant instead of duplicating this literal "categoryIds" 8 times.(Ï¾
+o	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(‹¶§F8´Ø€™ª/
+i	php:S1192 "HDefine a constant instead of duplicating this literal "feature" 3 times.(µÌÈËùÿÿÿÿ8´Ø€™ª/

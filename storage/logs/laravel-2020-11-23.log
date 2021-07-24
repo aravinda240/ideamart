@@ -1,0 +1,5 @@
+[2020-11-23 00:01:14] local.INFO: Subs Notification - info {"applicationId":"APP_001807","frequency":"Monthly","status":"REGISTERED","subscriberId":"tel:94771234567","version":"1.0","timeStamp":"20130402025896"} 
+[2020-11-23 00:03:13] local.INFO: Subs Notification - info {"applicationId":"APP_001807","frequency":"Monthly","status":"REGISTERED","subscriberId":"tel:94771234567","version":"1.0","timeStamp":"20130402025896"} 
+[2020-11-23 00:04:49] local.INFO: Subs Notification - info {"applicationId":"APP_001807","frequency":"Monthly","status":"REGISTERED","subscriberId":"tel:94771234567","version":"1.0","timeStamp":"20130402025896"} 
+[2020-11-23 00:05:21] local.INFO: Subs Notification - info {"applicationId":"APP_001807","frequency":"Monthly","status":"REGISTERED","subscriberId":"tel:94771234567","version":"1.0","timeStamp":"20130402025896"} 
+[2020-11-23 00:05:47] local.INFO: Subs Notification - info {"applicationId":"APP_001807","frequency":"Monthly","status":"REGISTERED","subscriberId":"tel:94771234567","version":"1.0","timeStamp":"20130402025896"} 

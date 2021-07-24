@@ -1,0 +1,30 @@
+
+B	php:S1068"-Remove this unused "$password" private field.(ªº†ô
+J	php:S1066¸"/Merge this if statement with the enclosing one.(áïêÃşÿÿÿÿ
+j	php:S3776Å"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(É“±Œ
+c	php:S1192Ô"MDefine a constant instead of duplicating this literal "statusDetail" 4 times.(˜†Ö‰
+	php:S1192B"xDefine a constant instead of duplicating this literal "We can\'t find the Application. Please try again later." 3 times.(ÕÂŞ
+^	php:S1192%"IDefine a constant instead of duplicating this literal "password" 6 times.(–·Î˜
+b	php:S1192%"MDefine a constant instead of duplicating this literal "app_password" 7 times.(–·Î˜
+\	php:S1192$"GDefine a constant instead of duplicating this literal "app_id" 8 times.(íµŠ×
+b	php:S1192&"MDefine a constant instead of duplicating this literal "subscriberId" 7 times.(ö¯€¢
+\	php:S1192!"HDefine a constant instead of duplicating this literal "rand_id" 3 times.(ìì¿T
+c	php:S1192$"NDefine a constant instead of duplicating this literal "applicationId" 7 times.(íµŠ×
+f	php:S1192Ó"KDefine a constant instead of duplicating this literal "statusCode" 4 times.(”­ä²úÿÿÿÿ
+\	php:S1192;"GDefine a constant instead of duplicating this literal "error" 10 times.(ö’ñ³
+g	php:S1192="RDefine a constant instead of duplicating this literal "Please enter OTP." 3 times.(Šòê
+ˆ	php:S1192H"nDefine a constant instead of duplicating this literal "Something went wrong. Please try again later." 3 times.(¨”¬§ÿÿÿÿÿ
+]	php:S1192="HDefine a constant instead of duplicating this literal "message" 9 times.(Šòê
+3php:S125"Remove this commented out code.(¶”õã
+3php:S1254"Remove this commented out code.(º·Şº
+8php:S1257"Remove this commented out code.(€˜Ñ°ûÿÿÿÿ
+3php:S1259"Remove this commented out code.(‰İÇ´
+3php:S125M"Remove this commented out code.(ë¿Ãú
+3php:S125S"Remove this commented out code.(Ú°à¬
+3php:S125Z"Remove this commented out code.(º·Şº
+3php:S125\"Remove this commented out code.(Î£×ï
+8php:S125_"Remove this commented out code.(éØ»Úûÿÿÿÿ
+3php:S125p"Remove this commented out code.(‰İÇ´
+4php:S125§"Remove this commented out code.(ë¿Ãú
+4php:S125Ğ"Remove this commented out code.(ÏÎ¤«
+4php:S125…"Remove this commented out code.(Ø…˜ë
