@@ -35,6 +35,8 @@ Route::prefix('v1')->group(function () {
     Route::post('subscribe_app', 'ApiController@subscribeApp');
     Route::get('apps', 'AppController@index');
     Route::post('verify_otp', 'ApiController@verifyOtp');
+    Route::post('receive_sub', 'ApiController@receiveSubscription');
+    Route::post('receive_sms', 'ApiController@receiveSms');
 
 
 

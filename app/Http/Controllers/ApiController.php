@@ -51,7 +51,7 @@ class ApiController extends Controller
                             "appCode" => 'https://play.google.com/store/apps/details?id=lk',
                         ]
                     ];
-                    $dataResp = Lib::curlCall(env('OTP_REQUEST_URL'), $dataRequest);
+                    $dataResp = Lib::curlCall(env('IDEA_MART_URL').'subscription/otp/request', $dataRequest);
                     $subResp = [
                         'error' => false,
                         'data' => $dataResp,
@@ -78,8 +78,14 @@ class ApiController extends Controller
 
 
 //        Log::channel('apilog')->info('Subs Notification API', ['function' => 'subscribeApp', 'type' => 'POST', 'request' => $dataRequest, 'response' => $response]);
+        Lib::ApiLog(json_encode([
+            'url' => 'subscribeApp',
+            'type' => 'POST',
+            'request' => $request->all(),
+            'response' => $subResp
+        ]));
 
-        return $subResp;
+        return response()->json($subResp, 201);
     }
 
     public function verifyOtp(Request $request)
@@ -103,7 +109,7 @@ class ApiController extends Controller
                             "otp" => $arrayReq['otp'],
                         ];
 
-                        $dataResp = Lib::curlCall(env('OTP_VERIFY_URL'), $dataRequest);
+                        $dataResp = Lib::curlCall(env('IDEA_MART_URL').'subscription/otp/verify', $dataRequest);
                         $subResp = [
                             'error' => false,
                             'data' => $dataResp,
@@ -133,9 +139,36 @@ class ApiController extends Controller
                 'message' => 'Something went wrong. Please try again later.'
             ];
         }
-        return $subResp;
+        Lib::ApiLog(json_encode([
+            'url' => 'verifyOtp',
+            'type' => 'POST',
+            'request' => $request->all(),
+            'response' => $subResp
+        ]));
+        return response()->json($subResp, 201);
     }
 
+    public function receiveSubscription(Request $request)
+    {
+        Lib::ApiLog(json_encode([
+            'url' => 'receiveSubscription',
+            'type' => 'POST',
+            'request' => $request->all(),
+            'response' => ''
+        ]));
+        return response()->json(['success'], 201);
+    }
+
+    public function receiveSms(Request $request)
+    {
+        Lib::ApiLog(json_encode([
+            'url' => 'receiveSms',
+            'type' => 'POST',
+            'request' => $request->all(),
+            'response' => ''
+        ]));
+        return response()->json(['success'], 201);
+    }
 
 //    public function otpVerify()
 //    {
