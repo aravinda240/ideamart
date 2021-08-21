@@ -1,7 +1,7 @@
 
-H	php:S1172K"3Remove the unused function parameter "$jsonStream".(áşÚª
-y	php:S1192"_Define a constant instead of duplicating this literal "Content-Type: application/json" 3 times.(Œ€û‰úÿÿÿÿ
+3php:S125o"Remove this commented out code.(Ú°à¬
 T	php:S4830":Activate SSL/TLS certificates chain of trust verification.(–¾¹ıÿÿÿÿ
-3php:S125g"Remove this commented out code.(Ú°à¬
+y	php:S1192"_Define a constant instead of duplicating this literal "Content-Type: application/json" 3 times.(Œ€û‰úÿÿÿÿ
+H	php:S1172K"3Remove the unused function parameter "$jsonStream".(áşÚª
 T	php:S4830#":Activate SSL/TLS certificates chain of trust verification.(–¾¹ıÿÿÿÿ
 E	php:S1144"0Remove this unused private "sendrequest" method.(´Úë¶
